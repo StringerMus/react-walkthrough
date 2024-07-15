@@ -1,44 +1,10 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <FunctionalGreetingWithProps greeting="Nice ta meet ya" name="Mike" age="32"/>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-// import logo from './logo.svg';
-// import './App.css';
-// import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <StatefulGreetingWithPrevState greeting="I'm a stateful class component"/>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-import logo from './logo.svg';
 import './App.css';
-import EventsClass from "./components/EventsClass";
-import EventsFunctional from "./components/EventsFunctional";
+import EventBinding from "./components/EventBinding";
 
 function App() {
-  return (
-    <div className="App">
-      <EventsFunctional />
-      <EventsClass />
-    </div>
-  );
+  return <div className="App">
+    <EventBinding />
+  </div>;
 }
 
 export default App;
